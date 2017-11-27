@@ -1,0 +1,28 @@
+{
+    "name": "typescript-express-quickstart",
+    "version": "0.1.0",
+    "description": "Quick start a Typescript Express Node server.",
+    "main": "src/server.js",
+    "scripts": {
+        "compile": "npm run lint && tsc",
+        "lint": "tslint \"**/*.ts\" -p tsconfig.json -c tslint.json -e \"**/*.d.ts\" -e \"node_modules/**\"",
+        "start": "npm run compile && node src/server.js"
+    },
+    "author": "Fadhli Mustaffa",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fadhlimustaffa/typescript-express-quickstart.git"
+    },
+    "dependencies": {
+        "@types/config": "^0.0.33",
+        "@types/express": "^4.0.39",
+        "@types/node": "^6.0.46",
+        "config": "^1.28.1",
+        "express": "^4.16.2",
+        "tslint": "^5.8.0",
+        "typescript": "^2.6.1",
+        "web-request": "^1.0.7"
+    },
+    "devDependencies": {}
+}

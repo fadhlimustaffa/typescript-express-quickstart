@@ -1,0 +1,11 @@
+/**
+ * Default configuration file.
+ */
+{
+    "environment": {
+        "port": "3000"
+    },
+    "provider": {
+        "placeholder": "https://jsonplaceholder.typicode.com/posts/"
+    }
+}
